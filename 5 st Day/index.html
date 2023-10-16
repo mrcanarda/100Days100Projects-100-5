@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/general.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <script defer type="module" src="index.js"></script>
+
+    <title>Frontend Mentor | Intro component with sign up form</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <section class="container">
+      <div class="grid grid--2-cols">
+        <div class="paragraph">
+          <h1>Learn to code by watching others</h1>
+          <p>
+            See how experienced developers solve problems in real-time. Watching
+            scripted tutorials is great, but understanding how developers think
+            is invaluable.
+          </p>
+        </div>
+        <div class="form">
+          <div class="sevenday">
+            <p><span>Try it free 7 days</span> then $20/mo. thereafter</p>
+          </div>
+          <div class="form-two">
+            <input
+              type="text"
+              placeholder="First Name "
+              class="login__input input--user"
+            />
+
+            <input
+              type="text"
+              placeholder="Last Name"
+              class="login__input input--lastname"
+            />
+
+            <input
+              type="email"
+              placeholder="Email Address"
+              class="login__input input--email"
+            />
+
+            <input
+              type="text"
+              placeholder="Passworrd"
+              maxlength="8"
+              class="login__input input--pin"
+            />
+
+            <a class="button-link" href="#">CLAIM YOUR FREE TRIAL</a>
+
+            <p>
+              By clicking the button, you are agreeing to our
+              <span>Terms and Services</span>
+            </p>
+          </div>
+        </div>
+        <div class="form--zwei hidden">
+          <div class="sevenday">
+            <p><span>Try it free 7 days</span> then $20/mo. thereafter</p>
+          </div>
+          <div class="form-two">
+            <input
+              type="text"
+              placeholder=""
+              class="login__input input--user zwei"
+            />
+            <p class="form-parag">First Name cannot be empty</p>
+            <input
+              type="text"
+              placeholder=""
+              class="login__input input--lastname zwei"
+            />
+            <p class="form-parag">Last Name cannot be empty</p>
+
+            <input
+              type="email"
+              placeholder="email@example.com"
+              class="login__input input--email zwei"
+            />
+            <p class="form-parag">Looks like thos os not an email</p>
+            <input
+              type="text"
+              placeholder=""
+              maxlength="8"
+              class="login__input input--pin zwei"
+            />
+            <p class="form-parag">Password cannot be empty</p>
+
+            <a class="button-link" href="#">CLAIM YOUR FREE TRIAL</a>
+
+            <p>
+              By clicking the button, you are agreeing to our
+              <span>Terms and Services</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,142 @@
+/*
+font-family: 'Poppins', sans-serif;
+*/
+
+/********************+
+****** LEFT HEADER ***
+**********************/
+
+.paragraph {
+  margin-top: 10rem;
+}
+
+.paragraph h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 5rem;
+  margin-left: 5rem;
+  line-height: 1.2;
+  color: #fff;
+}
+
+/********************+
+****** LEFT PARAGRAPH ***
+**********************/
+
+.paragraph p {
+  font-size: 1.8rem;
+  line-height: 1.6;
+  margin-top: 2rem;
+  color: #fff;
+  font-weight: 400;
+  width: 82%;
+  margin-left: 5rem;
+  font-family: "Poppins", sans-serif;
+}
+
+/********************+
+****** RIGHT FIRST BUTTON ***
+**********************/
+
+.sevenday {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(248, 32%, 49%);
+  padding: 1.4rem 1rem;
+  width: 50rem;
+  border-radius: 10px;
+  margin-bottom: 2.4rem;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-size: 1.2rem;
+  box-shadow: 4px 4px 4px hsla(0, 0%, 0%, 0.419);
+}
+
+.sevenday span {
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
+
+/********************+
+****** RIGHT FORM ***
+**********************/
+
+.form-two {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+  width: 50rem;
+  background-color: #fff;
+  font-family: "Poppins", sans-serif;
+  height: 42rem;
+  padding-left: 2rem;
+  padding-top: 4rem;
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px hsla(0, 0%, 0%, 0.419);
+}
+
+.form-two input {
+  padding: 1rem;
+  width: 46rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.form-two p {
+  text-align: center;
+  color: hsl(246, 25%, 77%);
+  font-family: "Poppins", sans-serif;
+}
+
+.form-two span {
+  color: orange;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
+
+/********************+
+****** FORM LINK ***
+**********************/
+
+.button-link:link,
+.button-link:visited {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.4rem;
+  transition: all 0.3s;
+  background-color: hsl(154, 59%, 51%);
+  width: 46rem;
+  height: 4rem;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  padding-top: 1.1rem;
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px hsla(0, 0%, 0%, 0.419);
+}
+
+.button-link:hover,
+.button-link:active {
+  color: #fff;
+  background-color: hsl(154, 64%, 58%);
+}
+
+.zwei {
+  border: solid red;
+  border-radius: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+.hidden input {
+  color: red;
+}
+
+.form-parag {
+  margin-top: -1.4rem;
+  margin-left: 26rem;
+
+  text-align: right;
+}
